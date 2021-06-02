@@ -1,0 +1,39 @@
+body{
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+.card-cont{
+    width: 400px;
+    margin: 30px auto;
+    border: 1px solid rgb(241, 241, 241);
+    box-sizing: border-box;
+
+    .img-main{
+        width: inherit;
+    }
+    .card-body{
+        margin: 30px;
+        line-height: 27px;
+        button{
+            margin-top: 4px;
+            background: #70845D ;
+            color: rgb(216, 216, 216);
+            border-width: 1.5px;
+            border-style: solid;
+            padding: 3px 10px;
+            line-height: 20px;
+            cursor: pointer;
+            border-radius: 100px;
+            font-size: 14px;
+        }
+    }
+
+}
+@media screen and(max-width: 400px) {
+    .card-cont{
+        width: 300px;
+        .img-main{
+            width: inherit;
+        }
+    }
+}

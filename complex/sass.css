@@ -1,0 +1,88 @@
+body {
+  box-sizing: border-box;
+  font-size: arial;
+  font-family: "Vollkorn", serif;
+  font-weight: bold;
+}
+
+.jobs {
+  width: 100%;
+  border-spacing: 0px;
+}
+.jobs .inner-wrap {
+  padding: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.jobs .inner-wrap h1 {
+  font-size: 3em;
+  color: #1C153D;
+}
+.jobs .inner-wrap .body-jobs {
+  color: #474463;
+  display: flex;
+  flex-direction: row;
+}
+.jobs .inner-wrap .body-jobs table {
+  border: 1px solid white;
+  border-collapse: separate;
+  border-left: 0;
+  border-radius: 4px;
+  border-spacing: 0px;
+  width: 55%;
+}
+.jobs .inner-wrap .body-jobs thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+  border-collapse: separate;
+  background-color: #FFD244;
+}
+.jobs .inner-wrap .body-jobs tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+.jobs .inner-wrap .body-jobs th:first-child {
+  border-left: 2px solid #847562;
+  border-top: 2px solid #847562;
+  border-bottom: 2px solid #847562;
+}
+.jobs .inner-wrap .body-jobs th:last-child {
+  border-right: 2px solid #847562;
+  border-top: 2px solid #847562;
+  border-bottom: 2px solid #847562;
+  padding-left: 0px;
+}
+.jobs .inner-wrap .body-jobs th, .jobs .inner-wrap .body-jobs td {
+  padding: 8px;
+  text-align: left;
+  vertical-align: top;
+}
+.jobs .inner-wrap .body-jobs th:last-child, .jobs .inner-wrap .body-jobs td:last-child {
+  text-align: right;
+}
+.jobs .inner-wrap .body-jobs thead:first-child tr:first-child th:first-child, .jobs .inner-wrap .body-jobs tbody:first-child tr:first-child td:first-child {
+  border-radius: 4px 0 0 4px;
+}
+.jobs .inner-wrap .body-jobs thead:first-child tr:first-child th:last-child {
+  border-radius: 0 4px 4px 0;
+}
+.jobs .inner-wrap .body-jobs thead:last-child tr:last-child th:first-child, .jobs .inner-wrap .body-jobs tbody:last-child tr:last-child td:first-child {
+  border-radius: 4px 0 0 4px;
+}
+
+.footer-jobs {
+  padding-left: 10%;
+  text-align: left;
+}
+.footer-jobs ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0px;
+}
+.footer-jobs ul li {
+  padding: 8px;
+}
+
+/*# sourceMappingURL=sass.css.map */

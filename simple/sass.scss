@@ -1,0 +1,58 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+.content-wrap{
+    padding: 15px;
+    max-width: 650px;
+    margin: 0 auto;
+    // background-color: rgb(226, 207, 207);
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    h1{
+        font-size: 7em;
+        margin: 0;
+        padding: 0;
+        letter-spacing: -2px;
+        line-height:1em;
+        margin-bottom: 10px;
+        font-weight: 500;
+    }
+    .address-block{
+        display: flex;
+        margin: 12px 0;
+        p{
+            margin: 0;
+            font-weight: bold;
+        }
+        address{
+            font-style: normal;
+            margin-left: 30px;
+            font-weight: bold;
+            color: rgb(112, 112, 112);
+        }
+    }
+    .b-wrap{
+        margin-top: 20px;
+
+        button{
+            background: none;
+            border-width: 1.5px;
+            border-style: solid;
+            border-color: black;
+            padding: 3px 20px;
+            line-height: 36px;
+            cursor: pointer;
+            border-radius: 100px;
+            font-size: 1.1em;
+            img{
+                height: 17px;
+                margin: auto;
+                padding-right: 10px;
+                margin-bottom: -3px;
+            }
+        }
+    }
+}

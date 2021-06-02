@@ -1,0 +1,58 @@
+body {
+  box-sizing: border-box;
+  font-family: "Heebo", sans-serif;
+}
+
+.content-wrap {
+  padding: 15px;
+  max-width: 650px;
+  margin: 0 auto;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+.content-wrap h1 {
+  font-size: 7em;
+  margin: 0;
+  padding: 0;
+  letter-spacing: -2px;
+  line-height: 1em;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.content-wrap .address-block {
+  display: flex;
+  margin: 12px 0;
+}
+.content-wrap .address-block p {
+  margin: 0;
+  font-weight: bold;
+}
+.content-wrap .address-block address {
+  font-style: normal;
+  margin-left: 30px;
+  font-weight: bold;
+  color: #707070;
+}
+.content-wrap .b-wrap {
+  margin-top: 20px;
+}
+.content-wrap .b-wrap button {
+  background: none;
+  border-width: 1.5px;
+  border-style: solid;
+  border-color: black;
+  padding: 3px 20px;
+  line-height: 36px;
+  cursor: pointer;
+  border-radius: 100px;
+  font-size: 1.1em;
+}
+.content-wrap .b-wrap button img {
+  height: 17px;
+  margin: auto;
+  padding-right: 10px;
+  margin-bottom: -3px;
+}
+
+/*# sourceMappingURL=sass.css.map */

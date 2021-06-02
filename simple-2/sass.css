@@ -1,0 +1,41 @@
+body {
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+
+.card-cont {
+  width: 400px;
+  margin: 30px auto;
+  border: 1px solid #f1f1f1;
+  box-sizing: border-box;
+}
+.card-cont .img-main {
+  width: inherit;
+}
+.card-cont .card-body {
+  margin: 30px;
+  line-height: 27px;
+}
+.card-cont .card-body button {
+  margin-top: 4px;
+  background: #70845D;
+  color: #d8d8d8;
+  border-width: 1.5px;
+  border-style: solid;
+  padding: 3px 10px;
+  line-height: 20px;
+  cursor: pointer;
+  border-radius: 100px;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 400px) {
+  .card-cont {
+    width: 300px;
+  }
+  .card-cont .img-main {
+    width: inherit;
+  }
+}
+
+/*# sourceMappingURL=sass.css.map */

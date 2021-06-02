@@ -1,0 +1,10 @@
+@media only screen and (max-width: 800px){
+    .jobs .inner-wrap .body-jobs {
+     
+        flex-direction: column;
+    }
+    .footer-jobs{
+        margin-top: 2rem;
+        padding-left: 0;
+    }
+}
